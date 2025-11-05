@@ -26,4 +26,10 @@ public class Gato extends Mascota {
                 ", pedigri='" + pedigri + '\'' +
                 '}';
     }
+    
+    // Implementación de la interfáz (si no la implementa el programa tirará error)
+    @Override
+    public String obtenerCuidadosDiarios() {
+        return "Limpieza de arenero, supervision tranquila y cuidado del pelaje.";
+    }
 }

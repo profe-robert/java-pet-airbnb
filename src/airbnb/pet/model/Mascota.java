@@ -1,6 +1,6 @@
 package airbnb.pet.model;
 
-public abstract class Mascota {
+public abstract class Mascota implements Atendible /* ahora implementamos la interfáz en la clase abstracta, lo que obliga a implementarlña a cada clase que herede de Mascota*/ {
     private String codigo;              // alfanumérico único
     private String nombre;
     private double peso;

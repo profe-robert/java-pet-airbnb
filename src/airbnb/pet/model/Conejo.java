@@ -26,5 +26,11 @@ public class Conejo extends Mascota {
                 ", dieta='" + dieta + '\'' +
                 '}';
     }
+    
+    // Implementación de la interfáz (si no la implementa el programa tirará error)
+    @Override
+    public String obtenerCuidadosDiarios() {
+        return "Proveer heno fresco, revisar dieta y mantener area de juego segura.";
+    }
 }
 

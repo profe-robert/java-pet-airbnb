@@ -33,5 +33,11 @@ public class AirbnbPet {
         // Total
         System.out.println("\nTotal de mascotas: " + registro.cantidad());
         
+        // Muestra los cuidados implementados en cada clase debido a la interfaz
+        System.out.println("\nCuidados diarios por mascota:");
+        for (Mascota m : registro.listarTodas()) {
+            System.out.println(m.getNombre() + ": " + m.obtenerCuidadosDiarios());
+        }
+        
     }    
 }

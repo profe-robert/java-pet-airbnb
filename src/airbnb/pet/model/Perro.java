@@ -26,4 +26,10 @@ public class Perro extends Mascota {
                 ", saleAEjercitar=" + saleAEjercitar +
                 '}';
     }
+    
+    // Implementación de la interfáz (si no la implementa el programa tirará error)
+    @Override
+    public String obtenerCuidadosDiarios() {
+        return "Paseo diario y supervision durante ejercicio.";
+    }
 }
